@@ -9,15 +9,16 @@
 /* =================== Sections ================== */
 
 .section-top-header {
-  height: 7vh;
+  height: 5vh;
   background-color: #292929;
   color: aliceblue;
   display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .section-main {
   height: 100vh;
-  background: red;
 }
 
 .section-main main {
@@ -43,11 +44,17 @@
   display: flex;
   flex-direction: row;
   list-style-type: none;
+  margin-left: 10px;
 }
 
 .header-nav-ul a {
   color: aliceblue;
   text-decoration: none;
+  margin-left: 10px;
+}
+
+.header-nav-ul a:last-child {
+  margin-right: 10px;
 }
 
 /* =================== Footer ================== */
