@@ -1,83 +1,106 @@
 /* =================== Global ================== */
 * {
-    margin: 0;
-    padding: 0;
-    font-size: 10px;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  box-sizing: border-box;
 }
-
 
 /* =================== Sections ================== */
 
 .section-top-header {
-    height: 30vh;
-    background-color: blue;
+  height: 7vh;
+  background-color: #292929;
+  color: aliceblue;
+  display: flex;
 }
 
 .section-main {
-    height: 100vh;
-    background: red;
+  height: 100vh;
+  background: red;
+}
+
+.section-main main {
+  display: flex;
+  flex-direction: row;
 }
 
 .section-bottom-footer {
-    height: 30vh;
-    background: yellow;
+  height: 5vh;
+  background-color: #292929;
+  color: aliceblue;
 }
 
 /* =================== Header (including nav) ================== */
 
 .container-title {
-
 }
 
 .header-nav {
-
 }
 
 .header-nav-ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
 
+.header-nav-ul a {
+  color: aliceblue;
+  text-decoration: none;
 }
 
 /* =================== Footer ================== */
 
 .site-by {
-
 }
 
 .footer-nav {
-
 }
 
 .footer-nav-ul {
-
 }
 
 /* =================== Home (index.html) ================== */
 
 .container-left-pane {
+  padding: 10px;
+}
 
+.container-left-pane h1 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.container-left-pane p {
+  font-size: 18px;
 }
 
 .container-right-pane {
+  padding: 10px;
+}
 
+.container-right-pane h1 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.container-right-pane p {
+  font-size: 18px;
 }
 
 /* =================== About ================== */
 
 .container-subtitle {
-
 }
 
 .container-about-content {
-    
 }
 
 /* =================== Contact ================== */
 
 .container-contact-subtitle {
-
 }
 
 .container-contact-form {
-    
 }
