@@ -34,7 +34,14 @@
 }
 
 .header-nav-ul {
+  display: flex;
+  flex-direction: row;
   list-style-type: none;
+}
+
+.header-nav-ul a {
+  color: aliceblue;
+  text-decoration: none;
 }
 
 /* =================== Footer ================== */
