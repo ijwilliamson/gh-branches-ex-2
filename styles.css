@@ -20,14 +20,15 @@
   background: red;
 }
 
-.section-main main{
-    display:flex;
-    flex-direction:row;
+.section-main main {
+  display: flex;
+  flex-direction: row;
 }
 
 .section-bottom-footer {
-  height: 30vh;
-  background: yellow;
+  height: 5vh;
+  background-color: #292929;
+  color: aliceblue;
 }
 
 /* =================== Header (including nav) ================== */
@@ -63,32 +64,29 @@
 /* =================== Home (index.html) ================== */
 
 .container-left-pane {
-
-    padding:10px;
-   
+  padding: 10px;
 }
 
-.container-left-pane h1{
-    font-size: 24px;
-    margin-bottom: 12px;
+.container-left-pane h1 {
+  font-size: 24px;
+  margin-bottom: 12px;
 }
 
-.container-left-pane p{
-    font-size: 18px;
+.container-left-pane p {
+  font-size: 18px;
 }
 
 .container-right-pane {
-    padding:10px;
+  padding: 10px;
 }
 
-.container-right-pane h1{
-    font-size: 24px;
-    margin-bottom: 12px;
+.container-right-pane h1 {
+  font-size: 24px;
+  margin-bottom: 12px;
 }
 
-.container-right-pane p{
-    font-size: 18px;
-
+.container-right-pane p {
+  font-size: 18px;
 }
 
 /* =================== About ================== */
